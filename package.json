@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/apaskhaver/Calculator/issues"
   },
-  "homepage": "https://github.com/apaskhaver/Calculator#readme"
+  "homepage": "https://github.com/apaskhaver/Calculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
