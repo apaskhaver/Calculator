@@ -22,8 +22,8 @@ app.get("/bmicalculator", function(req, res) {
 });
 
 app.post("/bmicalculator", function(req, res) {
-  var height = Number(req.body.height);
-  var weight = Number(req.body.weight);
+  var height = parseFloat(req.body.height);
+  var weight = parseFloat(req.body.weight);
 
   res.send("Your BMI is " + (weight / Math.pow(height, 2)) +
   "<br> < 18.5 = underweight" +
